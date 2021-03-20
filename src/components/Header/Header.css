@@ -1,0 +1,24 @@
+nav{
+    background-color: #e03904;
+}
+.navComponent{
+    margin: 10px 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.brand{
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+
+}
+.navButton{
+    background: #209e00;
+    padding: 0px 19px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    height: 37px;
+    margin-top: 4px;
+    font-weight: 500;
+}

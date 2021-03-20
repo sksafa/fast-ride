@@ -1,0 +1,32 @@
+
+.searchContent{
+    display: flex;
+    background: #fff;
+    padding: 9px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    box-shadow: 0px 3px 6px 0px #000
+}
+
+.searchContent img{
+    height: 54px;
+    width: 49px;
+    margin-right: 19px;
+    
+}
+.searchContent h4{
+    margin-left: 54px;
+    margin-top: 9px;
+}
+.searchContent h5{
+    font-size: 30px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.searchContent p{}
+.desLogo{
+    height: 40px !important;
+    width: 27px !important;
+    margin-right: 0px !important;
+    margin-left: 12px;
+}

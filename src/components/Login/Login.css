@@ -1,0 +1,37 @@
+.fromStyle{
+    background: #2bdae2;
+    margin-top: 35px;
+    padding: 15px;
+}
+.fromStyle input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    margin-bottom: 11px;
+}
+
+.fromStyle button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    border: 0;
+    color: #fff;
+    background: #ff5722;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.othersSignIn{
+    background-color: #2bdae28a;
+    padding: 28px 27px;
+}
+.othersSignIn button{
+    background: #2a6800;
+    color: #ffff;
+    width: 99%;
+    border: 0;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+}

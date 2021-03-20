@@ -1,0 +1,32 @@
+.searchField{
+    background-color: #2bdae28a;
+    padding: 20px 32px;
+    margin-top: 22px;
+    border-radius: 7px;
+}
+.searchField input{
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding: 6px;
+}
+.searchField button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    border: 0;
+    color: #fff;
+    background: #ff5722;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.searchField p{
+    font-weight: 700;
+    margin: 9px 0px;
+}
+.mapSection{
+    margin-top: 22px;
+    height: 250px;
+}

@@ -6,7 +6,7 @@ const MainBody = (props) => {
     const { name, image,id } = props.card;
     return (
         <div className="col-md-3 col-sm-12">
-            <div className="card">
+            <div className="cardSection">
                 <Link to={`/details/${id}`}>
                     <img src={image} alt=""/>
                     <h3 className="text-center" >{name}</h3>

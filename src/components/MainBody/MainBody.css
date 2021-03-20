@@ -1,8 +1,26 @@
-.card{}
-.card img{
+.cardSection{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.cardSection img{
     width: 200px;
     height: 200px;
     text-align: center;
     margin: 0 auto;
     padding: 27px;
+}
+@media (max-width: 576px){
+.cardSection{
+    margin-bottom: 5px;
+}
+
+.cardSection img{
+    width: 175px;
+    height: 149px;
+
+}
+
 }

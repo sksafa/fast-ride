@@ -7,18 +7,18 @@ import Header from './components/Header/Header';
 import Login from './components/Login/Login';
 import { createContext, useState } from 'react';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Destination from './components/Destination/Destination';
 
 export const UserContext = createContext()
 
-
+//<p>name :{loggedInUser.name}</p>
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({})
   return (
-    <UserContext.Provider value = {[loggedInUser,setLoggedInUser]}>
-      <p>email :{loggedInUser.name}</p>
+    <UserContext.Provider value = {[loggedInUser, setLoggedInUser]}>
+ 
       <Router>
         <Header></Header>
-
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -31,6 +31,9 @@ function App() {
             <Login></Login>
           </Route>
 
+          <PrivateRoute path="/destination/:id">
+            <Destination></Destination>
+          </PrivateRoute>
 
           <PrivateRoute path="/details/:id">
             <SearchArea></SearchArea>
@@ -39,7 +42,6 @@ function App() {
           <Route path="*">
             <Error></Error>
           </Route>
-
 
         </Switch>
       </Router>
